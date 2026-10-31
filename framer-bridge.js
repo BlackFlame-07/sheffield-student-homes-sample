@@ -195,53 +195,49 @@
         // 8. Specialists Doctor Tabs (100% Exact OG Aveline Studio Specialists)
     var specialistsData = [
       {
-        name: 'Dr. Elena Varga',
-        role: 'Cosmetic dentistry',
+        name: 'Arthur Pendelton',
+        role: 'Managing Lettings Director & Property Partner',
         photo: './assets/LhRdrbEme10eLb0FCf78WEGE_dr_varga.webp',
-        alt: 'Dr. Elena Varga · Cosmetic dentistry',
-        bio: 'Elena leads our cosmetic work, from whitening to full veneer cases. She plans every smile digitally first, so you can see the result before a single tooth is touched.',
-        experience: '12 years',
-        languages: 'English, Hungarian',
-        inStudio: 'Mon, Wed, Fri',
-        rating: '4.9',
-        reviews: '312 reviews'
+        alt: 'Arthur Pendelton · Managing Lettings Director & Property Partner',
+        bio: 'Over two decades providing safe, high-specification student accommodation across Sheffield with strict university accreditation standards.',
+        experience: '21 years',
+        languages: 'English',
+        education: 'ARLA Propertymark Certified, Dip. Residential Lettings',
+        specialties: ["Accredited Tenancies", "Campus Proximity", "Property Quality"]
       },
       {
-        name: 'Dr. Daniel Costa',
-        role: 'Orthodontics',
+        name: 'Gemma Walker',
+        role: 'Senior Tenancy & Campus Allocations Lead',
         photo: './assets/i9YV55qg35geFijtWVbcSvyZI_dr_costa.webp',
-        alt: 'Dr. Daniel Costa · Orthodontics',
-        bio: 'Daniel has straightened more than 1,400 smiles with clear aligners and fixed braces. He is known for realistic timelines and very few surprise extra stages.',
+        alt: 'Gemma Walker · Senior Tenancy & Campus Allocations Lead',
+        bio: 'Guiding student groups through transparent tenancy signings and room allocations with zero pressure and complete clarity.',
+        experience: '14 years',
+        languages: 'English',
+        education: 'University of Sheffield, BA (Hons) Housing Management',
+        specialties: ["Group Tenancies", "Contract Clarity", "Student Welfare"]
+      },
+      {
+        name: 'Liam O'Connor',
+        role: 'Property Maintenance & Environmental Director',
+        photo: './assets/a37k1yA2pG9jMh6u220b345f.webp',
+        alt: 'Liam O'Connor · Property Maintenance & Environmental Director',
+        bio: 'Directing our dedicated rapid-response maintenance crew, ensuring boilers, broadband, and security systems operate flawlessly.',
+        experience: '16 years',
+        languages: 'English, Irish',
+        education: 'Chartered Institute of Building (CIOB)',
+        specialties: ["Rapid Response", "Heating & Utilities", "Safety Audits"]
+      },
+      {
+        name: 'Sophie Davies',
+        role: 'Student Welfare & Resident Concierge',
+        photo: './assets/b9487c194a28f731c54c_dr_reyes.webp',
+        alt: 'Sophie Davies · Student Welfare & Resident Concierge',
+        bio: 'Supporting student residents from move-in day to tenancy conclusion with warm, responsive community care.',
         experience: '9 years',
-        languages: 'English, Portuguese',
-        inStudio: 'Tue, Thu, Sat',
-        rating: '4.8',
-        reviews: '268 reviews'
+        languages: 'English',
+        education: 'Sheffield Hallam University, BSc Psychology',
+        specialties: ["Move-In Support", "Deposit Protection", "Resident Care"]
       },
-      {
-        name: 'Dr. Sofia Reyes',
-        role: "Children's dentistry",
-        photo: './assets/TjZGJmXA2itrXL8hlBEh6zV8PA_dr_reyes.webp',
-        alt: "Dr. Sofia Reyes · Children's dentistry",
-        bio: 'Sofia makes first visits fun and fear-free. Children see her from their first tooth through their teens, with parents in the room for every appointment.',
-        experience: '7 years',
-        languages: 'English, Spanish',
-        inStudio: 'Mon, Tue, Thu',
-        rating: '4.9',
-        reviews: '204 reviews'
-      },
-      {
-        name: 'Dr. Ryan Okafor',
-        role: 'Implants & surgery',
-        photo: './assets/guZzPzCD5moyy6x2UlwrIWlV1yI_dr_okafor.webp',
-        alt: 'Dr. Ryan Okafor · Implants & surgery',
-        bio: 'Ryan places implants with guided surgery, planned from a 3D scan of your jaw. Most patients return to work the next day with a temporary tooth in place.',
-        experience: '15 years',
-        languages: 'English, Yoruba',
-        inStudio: 'Wed, Thu, Fri',
-        rating: '5.0',
-        reviews: '176 reviews'
-      }
     ];
 
         var specButtons = document.querySelectorAll('#team [data-framer-name="List"] button, #team button, .framer-t9vo8c button');
@@ -351,11 +347,11 @@
     var yourVisitTitle = bookSec.querySelector('[data-framer-name="Your visit"] p, [data-framer-name="Your visit"]');
 
     var treatments = {
-      'Check-up & cleaning': { name: 'Smile Assessment & Check-up', doctor: 'Dr. Elena Varga' },
-      'Whitening consultation': { name: 'Teeth Whitening Consultation', doctor: 'Dr. Elena Varga' },
-      'Aligner consultation': { name: 'Clear Aligner Assessment', doctor: 'Dr. Daniel Costa' },
-      'Implant consultation': { name: 'Dental Implant Consultation', doctor: 'Dr. Ryan Okafor' },
-      'Emergency appointment': { name: "Pediatric & Family Consultation", doctor: 'Dr. Sofia Reyes' }
+      'Check-up & cleaning': { name: '4–6 Bed Student Houses Consultation', doctor: 'Arthur Pendelton' },
+      'Whitening consultation': { name: 'Broomhill Terraces Consultation', doctor: 'Gemma Walker' },
+      'Aligner consultation': { name: 'Crookesmoor Properties Consultation', doctor: 'Liam O'Connor' },
+      'Implant consultation': { name: 'Private Studio Flats Consultation', doctor: 'Arthur Pendelton' },
+      'Emergency appointment': { name: "All-Inclusive Packages Consultation", doctor: 'Sophie Davies' }
     };
 
     optionCards.forEach(function(card) {
@@ -1508,8 +1504,8 @@
       var bar = document.querySelector('.framer-1mwbh4g');
       var heroCard = document.querySelector('.framer-1jm03qa') || document.querySelector('[data-framer-name="Hero"]');
       var logoImg = document.querySelector('.framer-1hknmid img');
-      var whiteLogoSrc = './assets/YRTy2NxOkfcVHGa80qEHJySIPaY_4eedcb44.svg';
-      var darkLogoSrc = './assets/nCxPVkNYSQdYDt5mXEqXIlRVyKA_f3dd68ce.svg';
+      var whiteLogoSrc = './assets/sheffield_logo.svg';
+      var darkLogoSrc = './assets/sheffield_logo.svg';
 
       function updateNavState() {
         var barHeight = bar ? bar.offsetHeight : 72;
