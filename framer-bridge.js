@@ -856,327 +856,255 @@
 
     // Modal Markup
     var modalHtml = `
-      <div id="nord-consultation-modal" class="svs-modal-backdrop">
-        <div class="svs-modal-card">
-          <button class="svs-modal-close" id="nord-close-consultation">&times;</button>
-          
-          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid #eaeeed;">
-            <div style="display: flex; align-items: center; gap: 12px;">
-              <img src="./assets/svs_logo_navy.png" style="height: 24px; display: block;" alt="St Vincent Smile">
-              <span style="font-family: 'Geist Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #0e5a66; background: #dcebeb; padding: 4px 10px; border-radius: 999px; font-weight: 500;">Finnieston, Glasgow G3 8LH</span>
-            </div>
-            <span style="font-size: 11.5px; color: #1f2d31; display: flex; align-items: center; gap: 6px; font-weight: 500;">
-              <span style="width: 6px; height: 6px; border-radius: 50%; background: rgb(39, 163, 107); box-shadow: rgba(39, 163, 107, 0.25) 0px 0px 0px 3px; display: inline-block;"></span>
-              Live Slots Available
-            </span>
-          </div>
+<div id="nord-consultation-modal" class="svs-modal-backdrop">
+  <div class="svs-modal-card">
+    <button class="svs-modal-close" id="nord-close-consultation">&times;</button>
+    
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid #eaeeed;">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <img src="./assets/sheffield_logo.svg" style="height: 24px; display: block;" alt="Sheffield Student Homes">
+        <span style="font-family: 'Geist Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #0e5a66; background: #dcebeb; padding: 4px 10px; border-radius: 999px; font-weight: 500;">Ecclesall Road & Broomhill</span>
+      </div>
+      <span style="font-size: 11.5px; color: #1f2d31; display: flex; align-items: center; gap: 6px; font-weight: 500;">
+        <span style="width: 6px; height: 6px; border-radius: 50%; background: rgb(39, 163, 107); box-shadow: rgba(39, 163, 107, 0.25) 0px 0px 0px 3px; display: inline-block;"></span>
+        Live Consultation Slots
+      </span>
+    </div>
 
-          <h2 style="font-size: 24px; font-weight: 500; margin-bottom: 6px; letter-spacing: -0.03em; color: #0c1a1d; line-height: 1.25;">Book Appointment & Free 3D iTero Scan</h2>
-          <p style="font-size: 13.5px; color: #1f2d31; line-height: 1.5; margin-bottom: 18px;">
-            Schedule your free consultation with Dr. Umer (Diamond Apex Invisalign Provider) or our cosmetic & implant dental team in Glasgow.
-          </p>
+    <h2 style="font-size: 24px; font-weight: 500; margin-bottom: 6px; letter-spacing: -0.03em; color: #0c1a1d; line-height: 1.25;">Schedule Confidential Property Consultation</h2>
+    <p style="font-size: 13.5px; color: #1f2d31; line-height: 1.5; margin-bottom: 18px;">
+      Reserve an unhurried appointment with our senior estate directors and property advisors in Sheffield.
+    </p>
 
-          <div class="svs-mode-tabs">
-            <button class="svs-mode-btn active" id="mode-cal-btn">📅 Booking Calendar</button>
-            <button class="svs-mode-btn" id="mode-calc-btn">💳 0% Finance Calculator</button>
-            <button class="svs-mode-btn" id="mode-wa-btn">💬 WhatsApp Reception</button>
-          </div>
+    <div class="svs-mode-tabs">
+      <button class="svs-mode-btn active" id="mode-cal-btn">📅 Advisory Calendar</button>
+      <button class="svs-mode-btn" id="mode-calc-btn">📑 Valuation Estimator</button>
+      <button class="svs-mode-btn" id="mode-wa-btn">💬 WhatsApp Concierge</button>
+    </div>
 
-          <!-- 1. CALENDAR VIEW -->
-          <div id="view-calendar">
-            <label style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #303d42; font-weight: 500; display: block; margin-bottom: 8px;">Select Clinician / Dentist</label>
-            <div class="svs-doctor-select-row" id="nord-doc-selector">
-              <div class="svs-doc-pill active" data-doctor="Dr. Elena Varga">
-                <img src="./assets/LhRdrbEme10eLb0FCf78WEGE_dr_varga.webp" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex-shrink: 0;" alt="Dr. Elena Varga" />
+    <!-- 1. CALENDAR VIEW -->
+    <div id="view-calendar">
+      <label style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #303d42; font-weight: 500; display: block; margin-bottom: 8px;">Select Senior Advisor / Partner</label>
+      <div class="svs-doctor-select-row" id="nord-doc-selector">
+              <div class="svs-doc-pill active" data-doctor="Arthur Pendelton">
+                <img src="./assets/LhRdrbEme10eLb0FCf78WEGE_dr_varga.webp" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex-shrink: 0;" alt="Arthur Pendelton" />
                 <span class="doc-dot"></span>
-                <span>Dr. Elena Varga (Cosmetic Dentistry)</span>
+                <span>Arthur Pendelton (Managing Lettings Director & Property Partner)</span>
               </div>
-              <div class="svs-doc-pill" data-doctor="Dr. Daniel Costa">
-                <img src="./assets/i9YV55qg35geFijtWVbcSvyZI_dr_costa.webp" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex-shrink: 0;" alt="Dr. Daniel Costa" />
+              <div class="svs-doc-pill" data-doctor="Gemma Walker">
+                <img src="./assets/i9YV55qg35geFijtWVbcSvyZI_dr_costa.webp" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex-shrink: 0;" alt="Gemma Walker" />
                 <span class="doc-dot"></span>
-                <span>Dr. Daniel Costa (Orthodontics & Aligners)</span>
+                <span>Gemma Walker (Senior Tenancy & Campus Allocations Lead)</span>
               </div>
-              <div class="svs-doc-pill" data-doctor="Dr. Sofia Reyes">
-                <img src="./assets/TjZGJmXA2itrXL8hlBEh6zV8PA_dr_reyes.webp" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex-shrink: 0;" alt="Dr. Sofia Reyes" />
+              <div class="svs-doc-pill" data-doctor="Liam O'Connor">
+                <img src="./assets/a37k1yA2pG9jMh6u220b345f.webp" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex-shrink: 0;" alt="Liam O'Connor" />
                 <span class="doc-dot"></span>
-                <span>Dr. Sofia Reyes (Pediatric & Family Care)</span>
+                <span>Liam O'Connor (Property Maintenance & Environmental Director)</span>
               </div>
-              <div class="svs-doc-pill" data-doctor="Dr. Ryan Okafor">
-                <img src="./assets/guZzPzCD5moyy6x2UlwrIWlV1yI_dr_okafor.webp" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex-shrink: 0;" alt="Dr. Ryan Okafor" />
+              <div class="svs-doc-pill" data-doctor="Sophie Davies">
+                <img src="./assets/b9487c194a28f731c54c_dr_reyes.webp" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: center 20%; flex-shrink: 0;" alt="Sophie Davies" />
                 <span class="doc-dot"></span>
-                <span>Dr. Ryan Okafor (Implants & Guided Surgery)</span>
+                <span>Sophie Davies (Student Welfare & Resident Concierge)</span>
               </div>
-            </div>
+      </div>
 
-            <label style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #303d42; font-weight: 500; display: block; margin-bottom: 8px;">Appointment / Consultation Type</label>
-            <div class="svs-track-grid" id="nord-track-selector">
-              <div class="svs-track-item active" data-track="Free Invisalign 3D iTero Consultation">
-                <div class="svs-track-title">✨ Free Invisalign Scan</div>
-                <div class="svs-track-sub">Diamond Apex · 3D iTero</div>
-              </div>
-              <div class="svs-track-item" data-track="Dental Implants & All-on-4 Assessment">
-                <div class="svs-track-title">🦷 Dental Implants</div>
-                <div class="svs-track-sub">3D CBCT Guided Exam</div>
-              </div>
-              <div class="svs-track-item" data-track="Artisan Composite Bonding Assessment">
-                <div class="svs-track-title">💎 Composite Bonding</div>
-                <div class="svs-track-sub">Same-Day Smile Makeover</div>
-              </div>
-            </div>
-
-            <div class="svs-cal-box">
-              <div class="svs-cal-header">
-                <div class="svs-cal-title" id="nord-cal-month-year">November 2026</div>
-                <div class="svs-cal-nav">
-                  <button class="svs-cal-nav-btn" id="nord-cal-prev">&lsaquo;</button>
-                  <button class="svs-cal-nav-btn" id="nord-cal-next">&rsaquo;</button>
-                </div>
-              </div>
-              <div class="svs-cal-weekdays">
-                <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
-              </div>
-              <div class="svs-cal-days" id="nord-cal-days-grid"></div>
-
-              <div class="svs-slots-wrap">
-                <div class="svs-slots-title">Available Glasgow Slots for <span id="nord-selected-date-label">Thu, Nov 12</span></div>
-                <div class="svs-slots-grid" id="nord-slots-grid">
-                  <div class="svs-slot-pill active" data-slot="09:15 AM">09:15 AM</div>
-                  <div class="svs-slot-pill" data-slot="10:30 AM">10:30 AM</div>
-                  <div class="svs-slot-pill" data-slot="11:45 AM">11:45 AM</div>
-                  <div class="svs-slot-pill" data-slot="14:15 PM">02:15 PM</div>
-                  <div class="svs-slot-pill" data-slot="16:00 PM">04:00 PM</div>
-                  <div class="svs-slot-pill" data-slot="17:30 PM (Late Evening)">05:30 PM (Late Evening)</div>
-                </div>
-              </div>
-            </div>
-
-            <form id="nord-consultation-form">
-              <div class="svs-form-group">
-                <label>Primary Treatment</label>
-                <select id="nord-procedure-select" class="svs-form-select">
-                  <option value="Invisalign® Clear Aligners (Diamond Apex)">Invisalign® Clear Aligners (Diamond Apex)</option>
-                  <option value="Dental Implants & All-on-4">Dental Implants & All-on-4</option>
-                  <option value="Artisan Composite Bonding">Artisan Composite Bonding</option>
-                  <option value="Porcelain Veneers & Smile Makeovers">Porcelain Veneers & Smile Makeovers</option>
-                  <option value="Airflow Dental Hygiene & Polish">Airflow Dental Hygiene & Polish</option>
-                  <option value="Emergency Dental Pain Relief">Emergency Dental Pain Relief</option>
-                </select>
-              </div>
-              
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-                <div class="svs-form-group">
-                  <label>Full Name *</label>
-                  <input type="text" required class="svs-form-input" id="nord-name" placeholder="e.g. Fiona Campbell">
-                </div>
-                <div class="svs-form-group">
-                  <label>Email Address *</label>
-                  <input type="email" required class="svs-form-input" id="nord-email" placeholder="fiona.c@example.co.uk">
-                </div>
-              </div>
-
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-                <div class="svs-form-group">
-                  <label>Phone / WhatsApp *</label>
-                  <input type="tel" required class="svs-form-input" id="nord-phone" placeholder="07700 900555">
-                </div>
-                <div class="svs-form-group">
-                  <label>Payment / Registration Preference</label>
-                  <select class="svs-form-select" id="svs-plan-pref">
-                    <option value="0% Chrysalis Finance">0% Chrysalis Finance (Spread over 12-36 mo)</option>
-                    <option value="Private Pay-as-you-go">Private Pay-as-you-go</option>
-                    <option value="NHS Registration / General Care">NHS Registration / General Care</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="svs-form-group">
-                <label>Dental Notes or Questions</label>
-                <textarea class="svs-form-textarea" id="nord-notes" rows="2" placeholder="Tell our team about your smile goals, concerns, or previous dental work..."></textarea>
-              </div>
-
-              <button type="submit" class="svs-submit-btn">
-                <span>Confirm Appointment & Lock Date</span>
-                <span style="font-size: 16px;">&rarr;</span>
-              </button>
-              <p style="font-size: 11.5px; color: #303d42; text-align: center; margin-top: 10px;">
-                🔒 100% Free Consultation · No Obligation · Instant SMS & Email Confirmation
-              </p>
-            </form>
-          </div>
-
-          <!-- 2. FINANCE CALCULATOR VIEW -->
-          <div id="view-calculator" style="display: none;">
-            <p style="font-size: 13.5px; color: #1f2d31; margin-bottom: 16px; line-height: 1.5;">
-              St Vincent Smile partners with Chrysalis Finance to offer 0% APR monthly installments on all cosmetic treatments, Invisalign aligners, and dental implants.
-            </p>
-            
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 20px;">
-              <div style="background: #f3f5f4; border: 1px solid #eaeeed; border-radius: 14px; padding: 18px;">
-                <div style="font-size: 11px; color: #303d42; text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 4px;">Invisalign® Aligners</div>
-                <div style="font-family: 'Geist Variable', sans-serif; font-size: 26px; font-weight: 500; color: #0c1a1d; letter-spacing: -0.03em;">From £69<span style="font-size: 13px; font-weight: 400; color: #303d42;"> / month</span></div>
-                <div style="font-size: 11.5px; color: #0e5a66; margin-top: 4px; font-weight: 500;">0% APR · 36 Months</div>
-                <div style="font-size: 11px; color: #303d42; margin-top: 2px;">Includes Free 3D iTero & Whitening</div>
-              </div>
-              <div style="background: #f3f5f4; border: 1px solid #eaeeed; border-radius: 14px; padding: 18px;">
-                <div style="font-size: 11px; color: #303d42; text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 4px;">Composite Bonding</div>
-                <div style="font-family: 'Geist Variable', sans-serif; font-size: 26px; font-weight: 500; color: #0c1a1d; letter-spacing: -0.03em;">From £54<span style="font-size: 13px; font-weight: 400; color: #303d42;"> / month</span></div>
-                <div style="font-size: 11.5px; color: #0e5a66; margin-top: 4px; font-weight: 500;">0% APR · 24 Months</div>
-                <div style="font-size: 11px; color: #303d42; margin-top: 2px;">Same-Day Direct Resin Finish</div>
-              </div>
-            </div>
-
-            <div style="background: #f3f5f4; border: 1px solid #eaeeed; border-radius: 16px; padding: 22px; margin-bottom: 20px;">
-              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px;">
-                <span style="font-size: 13px; font-weight: 500; color: #0c1a1d;">Interactive Finance Estimator</span>
-                <span style="font-size: 11.5px; color: #303d42;">Chrysalis Authorised Provider</span>
-              </div>
-              
-              <div class="svs-form-group">
-                <label>Estimated Treatment Cost</label>
-                <div style="display: flex; align-items: center; gap: 12px;">
-                  <input type="range" id="calc-range-cost" min="1000" max="6000" step="250" value="2800" style="flex: 1; accent-color: #0e5a66; cursor: pointer;">
-                  <span id="calc-cost-display" style="font-family: 'Geist Mono', monospace; font-size: 16px; font-weight: 600; color: #0c1a1d; min-width: 75px; text-align: right;">£2,800</span>
-                </div>
-              </div>
-
-              <div class="svs-form-group">
-                <label>Repayment Term</label>
-                <div style="display: flex; gap: 8px;">
-                  <button type="button" class="svs-slot-pill active" id="term-12" style="flex: 1; text-align: center; padding: 9px 0;">12 Months (0%)</button>
-                  <button type="button" class="svs-slot-pill" id="term-24" style="flex: 1; text-align: center; padding: 9px 0;">24 Months (0%)</button>
-                  <button type="button" class="svs-slot-pill" id="term-36" style="flex: 1; text-align: center; padding: 9px 0;">36 Months (0%)</button>
-                </div>
-              </div>
-
-              <div style="background: #ffffff; border: 1px solid #eaeeed; border-radius: 12px; padding: 18px; text-align: center; margin-top: 16px;">
-                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #303d42; margin-bottom: 4px; font-weight: 500;">Estimated Monthly Payment</div>
-                <div id="calc-monthly-display" style="font-family: 'Geist Variable', sans-serif; font-size: 38px; font-weight: 500; color: #0c1a1d; letter-spacing: -0.04em;">£233.33</div>
-                <div style="font-size: 11.5px; color: #303d42; margin-top: 4px;">Total Payable: <strong id="calc-total-display" style="color: #0c1a1d; font-family: 'Geist Mono', monospace;">£2,800.00</strong> · Interest: <strong style="color: #0e5a66;">£0.00 (0% APR)</strong></div>
-              </div>
-            </div>
-
-            <button class="svs-submit-btn" id="calc-back-to-booking">
-              <span>Return to Appointment Calendar</span>
-              <span>&rarr;</span>
-            </button>
-          </div>
-
-          <!-- 3. WHATSAPP RECEPTION VIEW -->
-          <div id="view-whatsapp" style="display: none; text-align: center; padding: 16px 0;">
-            <div style="width: 64px; height: 64px; border-radius: 50%; background: #dcebeb; border: 1px solid #b9c4c6; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 28px;">
-              💬
-            </div>
-            <h3 style="font-size: 20px; font-weight: 500; margin-bottom: 8px; color: #0c1a1d; letter-spacing: -0.02em;">Direct St Vincent Smile Reception</h3>
-            <p style="font-size: 13.5px; color: #1f2d31; max-width: 440px; margin: 0 auto 20px; line-height: 1.5;">
-              Chat directly with our Finnieston dental reception team for appointments, emergency slots, or quick questions. Average response within 10 minutes during clinic opening hours.
-            </p>
-            <div style="background: #f3f5f4; border: 1px solid #eaeeed; border-radius: 14px; padding: 18px; max-width: 380px; margin: 0 auto 24px; text-align: left; font-size: 13px;">
-              <div style="color: #303d42; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500; margin-bottom: 4px;">Direct WhatsApp Reception:</div>
-              <div style="font-family: 'Geist Mono', monospace; font-size: 15px; font-weight: 600; color: #0c1a1d;">+44 7761 066850</div>
-              <div style="color: #303d42; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500; margin-top: 12px; margin-bottom: 4px;">Clinic Telephone:</div>
-              <div style="font-family: 'Geist Mono', monospace; font-size: 15px; font-weight: 600; color: #0c1a1d;">0141 248 1183</div>
-              <div style="color: #303d42; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500; margin-top: 12px; margin-bottom: 4px;">Practice Address:</div>
-              <div style="font-size: 13px; color: #0c1a1d;">23c St Vincent Crescent, Glasgow G3 8LH</div>
-            </div>
-            <a href="https://wa.me/447761066850" target="_blank" rel="noopener noreferrer" class="svs-submit-btn" id="nord-wa-main-btn" style="text-decoration: none; max-width: 380px; margin: 0 auto; background: #075E54 !important; color: #ffffff !important; font-weight: 600;">
-              <span>Open WhatsApp Chat Now</span>
-              <span>&rarr;</span>
-            </a>
-          </div>
-
-          <!-- SUCCESS VOUCHER VIEW -->
-          <div id="nord-consultation-success" style="display: none;">
-            <div class="svs-success-card">
-              <div style="width: 52px; height: 52px; border-radius: 50%; background: #dcebeb; border: 1px solid #b9c4c6; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px; font-size: 24px; color: #0e5a66; font-weight: bold;">
-                ✓
-              </div>
-              <h3 style="font-size: 22px; font-weight: 500; margin-bottom: 4px; color: #0c1a1d; letter-spacing: -0.02em;">Appointment Confirmed</h3>
-              <p style="font-size: 13.5px; color: #1f2d31; margin-bottom: 18px;">
-                Your appointment at St Vincent Smile has been booked. A confirmation has been prepared for your records.
-              </p>
-
-              <div class="svs-voucher-box">
-                <div class="svs-voucher-row">
-                  <span class="svs-voucher-label">Patient Name:</span>
-                  <span class="svs-voucher-val" id="voucher-name">Fiona Campbell</span>
-                </div>
-                <div class="svs-voucher-row">
-                  <span class="svs-voucher-label">Treatment:</span>
-                  <span class="svs-voucher-val" id="voucher-procedure">Invisalign® Clear Aligners</span>
-                </div>
-                <div class="svs-voucher-row">
-                  <span class="svs-voucher-label">Clinician:</span>
-                  <span class="svs-voucher-val" id="voucher-doctor">Dr. Umer (Diamond Apex)</span>
-                </div>
-                <div class="svs-voucher-row">
-                  <span class="svs-voucher-label">Date & Time Slot:</span>
-                  <span class="svs-voucher-val" id="voucher-slot">Thu, Nov 12 · 10:30 AM</span>
-                </div>
-                <div class="svs-voucher-row">
-                  <span class="svs-voucher-label">Location:</span>
-                  <span class="svs-voucher-val">23c St Vincent Crescent, Finnieston, Glasgow G3 8LH</span>
-                </div>
-              </div>
-
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px;">
-                <a id="nord-add-gcal" href="#" target="_blank" rel="noopener noreferrer" class="svs-submit-btn" style="margin-top: 0; font-size: 12px; font-weight: 600; text-decoration: none; background: #f3f5f4; color: #0c1a1d !important; border: 1px solid #eaeeed;">
-                  📅 Add to Google Cal
-                </a>
-                <a id="nord-wa-confirm" href="https://wa.me/447761066850" target="_blank" rel="noopener noreferrer" class="svs-submit-btn" style="margin-top: 0; font-size: 12px; font-weight: 600; text-decoration: none; background: #075E54; color: #ffffff !important; font-weight: 600;">
-                  💬 WhatsApp Reception
-                </a>
-              </div>
-
-              <button class="svs-submit-btn" id="nord-success-done" style="margin-top: 14px; background: #0c1a1d; color: #ffffff !important;">
-                Done
-              </button>
-            </div>
-          </div>
-
+      <label style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #303d42; font-weight: 500; display: block; margin-bottom: 8px;">Advisory & Consultation Focus</label>
+      <div class="svs-track-grid" id="nord-track-selector">
+        <div class="svs-track-item active" data-track="4–6 Bed Student Houses Consultation">
+          <div class="svs-track-title">🏡 4–6 Bed Student Houses</div>
+          <div class="svs-track-sub">Private Viewing & Appraisal</div>
+        </div>
+        <div class="svs-track-item" data-track="Broomhill Terraces Consultation">
+          <div class="svs-track-title">📐 Broomhill Terraces</div>
+          <div class="svs-track-sub">Site Topography & Title Review</div>
+        </div>
+        <div class="svs-track-item" data-track="Crookesmoor Properties Consultation">
+          <div class="svs-track-title">📑 Crookesmoor Properties</div>
+          <div class="svs-track-sub">Off-Market Confidential Search</div>
         </div>
       </div>
 
-      <!-- Legal & Privacy Modal -->
-      <div id="nord-legal-modal" class="svs-modal-backdrop">
-        <div class="svs-modal-card">
-          <button class="svs-modal-close" id="nord-close-legal">&times;</button>
-          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px;">
-            <img src="./assets/svs_logo_navy.png" style="height: 24px; display: block;" alt="St Vincent Smile">
-            <span style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; font-family: 'Geist Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #0e5a66; background: #dcebeb; padding: 4px 10px; border-radius: 999px; font-weight: 500;">Scottish Healthcare & Clinical Governance</span>
+      <div class="svs-cal-box">
+        <div class="svs-cal-header">
+          <div class="svs-cal-title" id="nord-cal-month-year">November 2026</div>
+          <div class="svs-cal-nav">
+            <button class="svs-cal-nav-btn" id="nord-cal-prev">&lsaquo;</button>
+            <button class="svs-cal-nav-btn" id="nord-cal-next">&rsaquo;</button>
           </div>
-          
-          <div class="svs-mode-tabs">
-            <button class="svs-tab-btn active" data-tab="privacy">Privacy & UK GDPR</button>
-            <button class="svs-tab-btn" data-tab="terms">Patient Charter</button>
-            <button class="svs-tab-btn" data-tab="accessibility">Accessibility</button>
-          </div>
+        </div>
+        <div class="svs-cal-weekdays">
+          <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
+        </div>
+        <div class="svs-cal-days" id="nord-cal-days-grid"></div>
 
-          <div id="legal-content-privacy" class="svs-legal-tab-pane">
-            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px;">UK Data Protection Act 2018 & Medical Privacy</h3>
-            <p style="font-size: 13px; color: #1f2d31; line-height: 1.6; margin-bottom: 14px;">
-              Saint Vincent Smile Centre Limited trading as St Vincent Smile (23c St Vincent Crescent, Finnieston, Glasgow G3 8LH) complies strictly with the UK General Data Protection Regulation (UK GDPR) and Data Protection Act 2018. All patient records, digital 3D iTero impressions, and CBCT radiographs are encrypted and stored in certified UK clinical systems.
-            </p>
-          </div>
-
-          <div id="legal-content-terms" class="svs-legal-tab-pane" style="display: none;">
-            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px;">General Dental Council (GDC) & HIS Regulation</h3>
-            <p style="font-size: 13px; color: #1f2d31; line-height: 1.6; margin-bottom: 14px;">
-              All dental surgeons, therapists, and hygienists practicing at St Vincent Smile are fully registered with the General Dental Council (GDC). Our clinic operates under the clinical standards of Healthcare Improvement Scotland (HIS).
-            </p>
-            <p style="font-size: 13px; color: #1f2d31; line-height: 1.6; margin-bottom: 14px;">
-              Finance Disclosure: Saint Vincent Smile Centre Limited is an Appointed Representative of Chrysalis Finance Limited, which is authorised and regulated by the Financial Conduct Authority (FCA).
-            </p>
-          </div>
-
-          <div id="legal-content-accessibility" class="svs-legal-tab-pane" style="display: none;">
-            <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px;">Web Accessibility Standards (WCAG 2.1 AA)</h3>
-            <p style="font-size: 13px; color: #1f2d31; line-height: 1.6; margin-bottom: 14px;">
-              This digital clinic experience conforms with Level AA of the W3C Web Content Accessibility Guidelines 2.1. Designed with high color contrast, screen reader compatibility, and full keyboard navigation.
-            </p>
+        <div class="svs-slots-wrap">
+          <div class="svs-slots-title">Available Consultation Slots for <span id="nord-selected-date-label">Thu, Nov 12</span></div>
+          <div class="svs-slots-grid" id="nord-slots-grid">
+            <div class="svs-slot-pill active" data-slot="09:15 AM">09:15 AM</div>
+            <div class="svs-slot-pill" data-slot="10:30 AM">10:30 AM</div>
+            <div class="svs-slot-pill" data-slot="11:45 AM">11:45 AM</div>
+            <div class="svs-slot-pill" data-slot="14:15 PM">02:15 PM</div>
+            <div class="svs-slot-pill" data-slot="16:00 PM">04:00 PM</div>
+            <div class="svs-slot-pill" data-slot="17:30 PM (Private)">05:30 PM (Private)</div>
           </div>
         </div>
       </div>
-    `;
+
+      <form id="nord-consultation-form">
+        <div class="svs-form-group">
+          <label>Property / Holding Category</label>
+          <select id="nord-procedure-select" class="svs-form-select">
+            <option value="4–6 Bed Student Houses">4–6 Bed Student Houses</option>
+<option value="Broomhill Terraces">Broomhill Terraces</option>
+<option value="Crookesmoor Properties">Crookesmoor Properties</option>
+<option value="Private Studio Flats">Private Studio Flats</option>
+<option value="All-Inclusive Packages">All-Inclusive Packages</option>
+
+          </select>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div class="svs-form-group">
+            <label>Full Name *</label>
+            <input type="text" required class="svs-form-input" id="nord-name" placeholder="e.g. Cameron Smith">
+          </div>
+          <div class="svs-form-group">
+            <label>Email Address *</label>
+            <input type="email" required class="svs-form-input" id="nord-email" placeholder="cameron.s@example.com">
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div class="svs-form-group">
+            <label>Phone / WhatsApp *</label>
+            <input type="tel" required class="svs-form-input" id="nord-phone" placeholder="+44 (0114) 266 9900">
+          </div>
+          <div class="svs-form-group">
+            <label>Acquisition Horizon</label>
+            <select class="svs-form-select" id="svs-plan-pref">
+              <option value="Immediate (0-3 Months)">Immediate Acquisition (0-3 Months)</option>
+              <option value="Mid-Term (3-6 Months)">Mid-Term Advisory (3-6 Months)</option>
+              <option value="Confidential Mandate">Confidential Family Mandate</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="svs-form-group">
+          <label>Property Parameters or Location Notes</label>
+          <textarea class="svs-form-textarea" id="nord-notes" rows="2" placeholder="Tell our advisory team about your property requirements, acreage preferences, or target locations..."></textarea>
+        </div>
+
+        <button type="submit" class="svs-submit-btn">
+          <span>Confirm Private Consultation & Reserve Slot</span>
+          <span style="font-size: 16px;">&rarr;</span>
+        </button>
+        <p style="font-size: 11.5px; color: #303d42; text-align: center; margin-top: 10px;">
+          🔒 100% Confidential · Discreet Advisory · Immediate Direct Confirmation
+        </p>
+      </form>
+    </div>
+
+    <!-- 2. FINANCE / VALUATION ESTIMATOR VIEW -->
+    <div id="view-calculator" style="display: none;">
+      <p style="font-size: 13.5px; color: #1f2d31; margin-bottom: 16px; line-height: 1.5;">
+        Sheffield Student Homes provides confidential estate valuation and title diligence across all signature properties and acreage holdings.
+      </p>
+
+      <div style="background: #f3f5f4; border: 1px solid #eaeeed; border-radius: 16px; padding: 22px; margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px;">
+          <span style="font-size: 13px; font-weight: 500; color: #0c1a1d;">Target Acquisition Valuation</span>
+          <span style="font-size: 11.5px; color: #303d42;">Licensed Property Valuation</span>
+        </div>
+
+        <div class="svs-form-group">
+          <label>Estimated Holding Value</label>
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <input type="range" id="calc-range-cost" min="1000000" max="10000000" step="250000" value="3500000" style="flex: 1; accent-color: #0e5a66; cursor: pointer;">
+            <span id="calc-cost-display" style="font-family: 'Geist Mono', monospace; font-size: 16px; font-weight: 600; color: #0c1a1d; min-width: 110px; text-align: right;">$3,500,000</span>
+          </div>
+        </div>
+
+        <div style="background: #ffffff; border: 1px solid #eaeeed; border-radius: 12px; padding: 18px; text-align: center; margin-top: 16px;">
+          <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #303d42; margin-bottom: 4px; font-weight: 500;">Estimated Stamp Duty & Title Escrow</div>
+          <div id="calc-monthly-display" style="font-family: 'Geist Variable', sans-serif; font-size: 38px; font-weight: 500; color: #0c1a1d; letter-spacing: -0.04em;">$185,000</div>
+          <div style="font-size: 11.5px; color: #303d42; margin-top: 4px;">Diligence Package: <strong id="calc-total-display" style="color: #0c1a1d; font-family: 'Geist Mono', monospace;">Complimentary with Mandate</strong></div>
+        </div>
+      </div>
+
+      <button class="svs-submit-btn" id="calc-back-to-booking">
+        <span>Return to Advisory Calendar</span>
+        <span>&rarr;</span>
+      </button>
+    </div>
+
+    <!-- 3. WHATSAPP RECEPTION VIEW -->
+    <div id="view-whatsapp" style="display: none; text-align: center; padding: 16px 0;">
+      <div style="width: 64px; height: 64px; border-radius: 50%; background: #dcebeb; border: 1px solid #b9c4c6; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 28px;">
+        💬
+      </div>
+      <h3 style="font-size: 20px; font-weight: 500; margin-bottom: 8px; color: #0c1a1d; letter-spacing: -0.02em;">Direct Sheffield Student Homes Concierge</h3>
+      <p style="font-size: 13.5px; color: #1f2d31; max-width: 440px; margin: 0 auto 20px; line-height: 1.5;">
+        Connect directly with our senior advisory team for private viewing schedules, off-market queries, or immediate property briefings.
+      </p>
+      <div style="background: #f3f5f4; border: 1px solid #eaeeed; border-radius: 14px; padding: 18px; max-width: 380px; margin: 0 auto 24px; text-align: left; font-size: 13px;">
+        <div style="color: #303d42; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500; margin-bottom: 4px;">Direct Concierge Phone:</div>
+        <div style="font-family: 'Geist Mono', monospace; font-size: 15px; font-weight: 600; color: #0c1a1d;">+44 (0114) 266 9900</div>
+        <div style="color: #303d42; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500; margin-top: 12px; margin-bottom: 4px;">Property Salon Address:</div>
+        <div style="font-size: 13px; color: #0c1a1d;">248 Ecclesall Road, Sheffield, S11 8HC, United Kingdom</div>
+      </div>
+      <a href="tel:+441142669900" class="svs-submit-btn" id="nord-wa-main-btn" style="text-decoration: none; max-width: 380px; margin: 0 auto; background: #075E54 !important; color: #ffffff !important; font-weight: 600;">
+        <span>Call Concierge Desk Now</span>
+        <span>&rarr;</span>
+      </a>
+    </div>
+
+    <!-- SUCCESS VOUCHER VIEW -->
+    <div id="nord-consultation-success" style="display: none;">
+      <div class="svs-success-card">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #dcebeb; border: 1px solid #b9c4c6; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px; font-size: 24px; color: #0e5a66; font-weight: bold;">
+          ✓
+        </div>
+        <h3 style="font-size: 22px; font-weight: 500; margin-bottom: 4px; color: #0c1a1d; letter-spacing: -0.02em;">Consultation Reserved</h3>
+        <p style="font-size: 13.5px; color: #1f2d31; margin-bottom: 18px;">
+          Your private consultation with Sheffield Student Homes has been confirmed. A briefing document is being prepared for your review.
+        </p>
+
+        <div class="svs-voucher-box">
+          <div class="svs-voucher-row">
+            <span class="svs-voucher-label">Client Name:</span>
+            <span class="svs-voucher-val" id="voucher-name">Cameron Smith</span>
+          </div>
+          <div class="svs-voucher-row">
+            <span class="svs-voucher-label">Category:</span>
+            <span class="svs-voucher-val" id="voucher-procedure">4–6 Bed Student Houses</span>
+          </div>
+          <div class="svs-voucher-row">
+            <span class="svs-voucher-label">Senior Advisor:</span>
+            <span class="svs-voucher-val" id="voucher-doctor">Arthur Pendelton</span>
+          </div>
+          <div class="svs-voucher-row">
+            <span class="svs-voucher-label">Date & Time Slot:</span>
+            <span class="svs-voucher-val" id="voucher-slot">Thu, Nov 12 · 10:30 AM</span>
+          </div>
+          <div class="svs-voucher-row">
+            <span class="svs-voucher-label">Salon Location:</span>
+            <span class="svs-voucher-val">248 Ecclesall Road, Sheffield, S11 8HC, United Kingdom</span>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px;">
+          <a id="nord-add-gcal" href="#" target="_blank" rel="noopener noreferrer" class="svs-submit-btn" style="margin-top: 0; font-size: 12px; font-weight: 600; text-decoration: none; background: #f3f5f4; color: #0c1a1d !important; border: 1px solid #eaeeed;">
+            📅 Add to Calendar
+          </a>
+          <a id="nord-wa-confirm" href="tel:+441142669900" class="svs-submit-btn" style="margin-top: 0; font-size: 12px; font-weight: 600; text-decoration: none; background: #075E54; color: #ffffff !important; font-weight: 600;">
+            📞 Call Desk
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
 
     var modalContainer = document.createElement('div');
     modalContainer.id = 'svs-modals-root';
@@ -1187,7 +1115,7 @@
     var legalModal = document.getElementById('nord-legal-modal');
 
     var calState = {
-      doctor: 'Dr. Umer',
+      doctor: 'Arthur Pendelton',
       track: 'Free Invisalign 3D iTero Consultation',
       procedure: 'Invisalign® Clear Aligners (Diamond Apex)',
       year: 2026,
@@ -1395,12 +1323,12 @@
       document.getElementById('voucher-doctor').textContent = calState.doctor;
       document.getElementById('voucher-slot').textContent = fullDateStr + ' · ' + calState.selectedSlot;
 
-      var gcalTitle = encodeURIComponent('St Vincent Smile Appointment: ' + calState.procedure + ' with ' + calState.doctor);
-      var gcalDetails = encodeURIComponent('Appointment at St Vincent Smile Glasgow.\nPatient: ' + calState.name + '\nTreatment: ' + calState.procedure + '\nFormat: ' + calState.track + '\nContact: 0141 248 1183');
-      var gcalUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + gcalTitle + '&details=' + gcalDetails + '&location=' + encodeURIComponent('St Vincent Smile, 23c St Vincent Crescent, Finnieston, Glasgow G3 8LH');
+      var gcalTitle = encodeURIComponent('Sheffield Student Homes Appointment: ' + calState.procedure + ' with ' + calState.doctor);
+      var gcalDetails = encodeURIComponent('Appointment at Sheffield Student Homes Glasgow.\nPatient: ' + calState.name + '\nTreatment: ' + calState.procedure + '\nFormat: ' + calState.track + '\nContact: 0141 248 1183');
+      var gcalUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + gcalTitle + '&details=' + gcalDetails + '&location=' + encodeURIComponent('Sheffield Student Homes, 23c St Vincent Crescent, Finnieston, Glasgow G3 8LH');
       document.getElementById('nord-add-gcal').setAttribute('href', gcalUrl);
 
-      var waMsg = encodeURIComponent('Hello St Vincent Smile Reception, I have booked a ' + calState.track + ' on ' + fullDateStr + ' at ' + calState.selectedSlot + ' with ' + calState.doctor + ' for ' + calState.procedure + '. Patient Name: ' + calState.name + '.');
+      var waMsg = encodeURIComponent('Hello Sheffield Student Homes Reception, I have booked a ' + calState.track + ' on ' + fullDateStr + ' at ' + calState.selectedSlot + ' with ' + calState.doctor + ' for ' + calState.procedure + '. Patient Name: ' + calState.name + '.');
       document.getElementById('nord-wa-confirm').setAttribute('href', 'https://wa.me/447761066850?text=' + waMsg);
 
       document.getElementById('view-calendar').style.display = 'none';
