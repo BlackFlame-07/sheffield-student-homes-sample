@@ -1,0 +1,4474 @@
+[
+  {
+    "appearId": null,
+    "name": "Loader",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Solid",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "translate 0.45s cubic-bezier(0.16, 1, 0.3, 1)"
+  },
+  {
+    "appearId": null,
+    "name": "Bar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Inner",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Brand",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Logo",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Mark",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wordmark",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Nav",
+    "tag": "nav",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Treatments",
+    "tag": "a",
+    "opacity": "0.74",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Specialists",
+    "tag": "a",
+    "opacity": "0.74",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Studio",
+    "tag": "a",
+    "opacity": "0.74",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Journal",
+    "tag": "a",
+    "opacity": "0.74",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Contact",
+    "tag": "a",
+    "opacity": "0.74",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "End",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Status",
+    "tag": "div",
+    "opacity": "0.8",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dot",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Book Button",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dropdowns",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Scrim",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Hero",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Hero Frame",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Desktop 2",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Media",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide 1",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1.065, 0, 0, 1.065, 0, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide 2",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1.015, 0, 0, 1.015, 0, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide 3",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1.08, 0, 0, 1.08, 0, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade Left",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade Bottom",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade Top",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Controls",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Progress",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Ghost",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bars",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bar 1",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bar 2",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(0.871857, 0, 0, 1, -4.98055, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bar 3",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Ghost",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Doctor Card",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Photo",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Body",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Meta",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Rating",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Trust",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.05s, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.05s"
+  },
+  {
+    "appearId": null,
+    "name": "Avatars",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Avatar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Avatar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Avatar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Avatar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Spacer",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Main",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Line 1",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Line 2",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Aside",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.45s, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.45s"
+  },
+  {
+    "appearId": null,
+    "name": "Buttons",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Chip",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Glass Large",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bottom",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Chips",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.6s, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.6s"
+  },
+  {
+    "appearId": null,
+    "name": "Active",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Glass",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Glass",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Glass",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Glass",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Glass",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slider Controls Space",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Journey",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Steps",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Smile assessment",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, -420, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Care planning",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, -420, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Treatment",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, -420, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Maintenance",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, -420, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "About",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Top",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Side",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 22)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Faces",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dr. Daniel Costa",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dr. Elena Varga",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Meet the team",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bottom",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stats",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Numbers",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Satisfaction rate",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 22)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Smiles treated",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 22)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Google rating",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 22)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Years in practice",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 22)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Photo",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 22)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Caption",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dot",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Treatments",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Head",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Lead",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 22)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Body",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Side",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Reviews",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Avatars",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Avatar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Avatar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Avatar",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Text",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Spacer",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrows",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Disabled",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dark",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Treatments row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Shade",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Care",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Head",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bento",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Book a visit",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Head",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Titles",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Open",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dot",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Picker",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Options",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Check-up & cleaning",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Selected",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Value",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Whitening consultation",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Value",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Aligner consultation",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Value",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Implant consultation",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Value",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Emergency appointment",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Value",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Space",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Footer",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Your visit",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Request",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Accent",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Booking Query",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Middle",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Clear aligner plan",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Head",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Titles",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Ice",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Count",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Next check-in",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stages",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 1",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 2",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 3",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 4",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 5",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 6",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 7",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 8",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 9",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 10",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 11",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 12",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 13",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 14",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 15",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 16",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 17",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 18",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 19",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 20",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 21",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stage 22",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Legend",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Facts",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wear time today",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Movement so far",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Head",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Titles",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Quiet",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Items",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Amount",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Amount",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Discount Amount",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Total",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Care plan",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Glow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Light",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Teeth model",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(0.999395, 0.0347817, -0.0347817, 0.999395, 0, -11.9595)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, 0, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Specialists",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Head",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Outline",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Body",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Photo",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Item",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": "1ibonqp-0",
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Badge",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Rating",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Info",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "List",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Active",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Active Line",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Active Line",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Active Line",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Active Line",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Detail",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Item",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Facts",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Experience",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Languages",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "In studio",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Inside the studio",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Grid",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Text",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "List",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Low-dose digital X-rays",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Number",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Text",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Same-day ceramic crowns",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Number",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Text",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Comfort options",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Number",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Text",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Photo",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Visit card",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Recommended check-ups",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Average visit",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Progress",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Ticks",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Fill",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Tick",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Reviews",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Side",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Score",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Stars",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Five stars",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Quotes",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Reviews row",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.1s, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s, visibility"
+  },
+  {
+    "appearId": null,
+    "name": "Author",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Photo",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Name",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Spacer",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Counter",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 12)",
+    "transition": "opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), visibility 0s 0.6s"
+  },
+  {
+    "appearId": null,
+    "name": "Author",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Photo",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Name",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Spacer",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Counter",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 12)",
+    "transition": "opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), visibility 0s 0.6s"
+  },
+  {
+    "appearId": null,
+    "name": "Author",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Photo",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Name",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Spacer",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Counter",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Slide",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 12)",
+    "transition": "opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), visibility 0s 0.6s"
+  },
+  {
+    "appearId": null,
+    "name": "Author",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Photo",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Name",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Spacer",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Counter",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrows",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dark",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dark",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Journal",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Head",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Outline",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Articles",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Article",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Topic",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Meta",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Article",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Topic",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Meta",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Article",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Topic",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Meta",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Title",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "FAQ",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Side",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Questions",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Open",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Question",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Icon",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Answer",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Closed",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Question",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Icon",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Answer",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Closed",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Question",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Icon",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Answer",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Closed",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Question",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Icon",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Answer",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Closed",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Question",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Icon",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Answer",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Book your visit",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Desktop",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Text",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Actions",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Accent Large",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Label",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Arrow",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Phone",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Image",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Visible",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Mark",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Footer gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Desktop",
+    "tag": "footer",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wrap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Top",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Newsletter",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Logo",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Mark",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wordmark",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Newsletter Form",
+    "tag": "form",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Default",
+    "tag": "button",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Site (hidden)",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "background, box-shadow"
+  },
+  {
+    "appearId": null,
+    "name": "Form (hidden)",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "background, box-shadow"
+  },
+  {
+    "appearId": null,
+    "name": "Page (hidden)",
+    "tag": "div",
+    "opacity": "0",
+    "transform": "none",
+    "transition": "background, box-shadow"
+  },
+  {
+    "appearId": null,
+    "name": "Message space",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Columns",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Treatments",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Studio",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Visit",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Status",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dot holder",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Dot",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Contact",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Gap",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Socials",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Instagram",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Facebook",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "X",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "YouTube",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Legal",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Links",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Wordmark",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": "n0ccwk",
+    "name": "Light",
+    "tag": "a",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Backdrop",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Content",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, -59.5, -8)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Logo",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, -6, 0)",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Text",
+    "tag": "div",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Bottom",
+    "tag": "div",
+    "opacity": "0.06",
+    "transform": "none",
+    "transition": "all"
+  },
+  {
+    "appearId": null,
+    "name": "Border",
+    "tag": "div",
+    "opacity": "0.04",
+    "transform": "none",
+    "transition": "all"
+  }
+]

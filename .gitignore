@@ -1,0 +1,14 @@
+.vercel
+node_modules
+*.log
+.DS_Store
+/*_verified.png
+/*_preview.png
+/*_full.png
+/*_rendered.png
+/*_verification.png
+/nordesthetics_old_website.png
+/nordesthetics_redesigned_sample2.png
+/nordesthetics_redesigned_full.png
+/nordesthetics_before_after_comparison.png
+!assets/*.png
