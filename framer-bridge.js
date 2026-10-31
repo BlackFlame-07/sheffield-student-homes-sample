@@ -1117,7 +1117,7 @@
     var calState = {
       doctor: 'Arthur Pendelton',
       track: 'Free Invisalign 3D iTero Consultation',
-      procedure: 'Invisalign® Clear Aligners (Diamond Apex)',
+      procedure: 'Prestige Property Consultation',
       year: 2026,
       month: 10,
       selectedDay: 12,
